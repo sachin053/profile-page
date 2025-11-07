@@ -82,4 +82,15 @@ img.profile {
   border-radius: 50%;
   border: 3px solid #90e0ef;
 }
+/* SKILLS SECTION */
+ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
 
