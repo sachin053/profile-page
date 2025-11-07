@@ -117,6 +117,26 @@ table {
   line-height: 1.6;
 }
 
+/* HOBBIES AND LANGUAGES SECTION */
+#hobbies, #languages {
+  background-color: #f8f9fa;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-top: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#hobbies ul, #languages ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+#hobbies li, #languages li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+
 
 th, td {
   border: 1px solid #90e0ef;
