@@ -48,3 +48,38 @@ nav a {
 nav a:hover {
   color: #ffd166;
 }
+/* MAIN LAYOUT */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ARTICLE */
+article {
+  flex: 3;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ABOUT SECTION */
+h2 {
+  color: #0077b6;
+  border-bottom: 2px solid #90e0ef;
+  padding-bottom: 5px;
+}
+
+/* PROFILE IMAGE */
+img.profile {
+  display: block;
+  margin: 15px auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #90e0ef;
+}
+
